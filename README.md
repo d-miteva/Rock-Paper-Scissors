@@ -7,3 +7,8 @@ Rock paper scissors (also known by other orderings of the three items, with "roc
 
 - made according to the condition of the project
 - additionally made counter, which after the end of the game, shows wins, losses and draws
+
+Live Demo
+- You can play the game here - > https://replit.com/@DMiteva/RockPaperScissors#main.py
+
+
