@@ -41,15 +41,14 @@ while player_move != "no":
             (player_move == scissors and computer_move == paper):
         cprint("You win!", "green")
         counter_win += 1
-        answer = input("Type [yes] to play again or [no] to quit: ")
     elif player_move == computer_move:
         cprint("Draw!", "yellow")
         counter_draw += 1
-        answer = input("Type [yes] to play again or [no] to quit: ")
     else:
         cprint("You lose!", "red")
         counter_lose += 1
-        answer = input("Type [yes] to play again or [no] to quit: ")
+
+    answer = input("Type [yes] to play again or [no] to quit: ")
 
     if answer == "no":
         cprint(f"The final result is: Wins: {counter_win}, Draws: {counter_draw}, Loses: {counter_lose}", "red")
